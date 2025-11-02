@@ -15,7 +15,7 @@ function addImagesHomePage() {
         containerDiv.setAttribute('data-target', '#modal')
 
         const img = document.createElement('img')
-        img.setAttribute('src', `images/${c}.${fileType}`)
+        img.setAttribute('src', `images/home/${c}.${fileType}`)
         img.setAttribute('alt', c)
 
         containerDiv.appendChild(img)
@@ -29,7 +29,7 @@ function createSlideshow() {
         containerDiv.classList.add('slides')
 
         const img = document.createElement('img')
-        img.setAttribute('src', `images/${c}.${fileType}`)
+        img.setAttribute('src', `images/home/${c}.${fileType}`)
         img.setAttribute('alt', c)
 
         containerDiv.appendChild(img)
