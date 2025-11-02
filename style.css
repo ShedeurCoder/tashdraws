@@ -60,9 +60,6 @@ nav {
 .example-sheet span {
     font-size: 1.3rem;
 }
-.tos p {
-    font-size: 1.3rem;
-}
 .index .container {
     margin: 0;
 }
@@ -135,6 +132,10 @@ footer a:hover {
 .social-container li a,
 .social-container li {
     display: inline;
+}
+.process {
+    font-size: 1.1rem;
+    line-height: 2;
 }
 
 @media only screen and (min-width: 1000px) {
