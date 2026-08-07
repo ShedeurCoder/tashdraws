@@ -1,5 +1,10 @@
 const pictures = [
-    "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
+    'arena', 'jinmao', 'garden', 'kaleidoscope', 
+    'christmastree', 'ratking','snow','nutcracker',
+    'shop','forest','elk','many',
+    'kpdh','eremika','spider','shimaolan',
+    'moon','guitar','avatar','knight',
+    'window','cave','girl','mermaid'
 ]
 const fileType = 'jpg'
 const classesForHome = [
@@ -58,3 +63,14 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     console.log(slideIndex)
 } 
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'ArrowRight') {
+    plusSlides(1); // replace with the name of the function you want to call
+  }
+});
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'ArrowLeft') {
+    plusSlides(-1); // replace with the name of the function you want to call
+  }
+});
