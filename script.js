@@ -3,8 +3,8 @@ const pictures = [
     'christmastree', 'ratking','snow','nutcracker',
     'shop','forest','elk','many',
     'kpdh','eremika','spider','shimaolan',
-    'moon','guitar','avatar','knight',
-    'window','cave','girl','mermaid'
+    'TSAD', 'tsadcover', 'moon','guitar',
+    'avatar','knight', 'window','mermaid'
 ]
 const fileType = 'jpg'
 const classesForHome = [
